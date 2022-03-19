@@ -1,0 +1,21 @@
+{
+    "name": {
+        "pt": "São Paulo Futebol Clube"
+    },
+    "nickname": {
+        "pt": "São Paulo"
+    },
+    "acronym": {
+        "pt": "SPA"
+    },
+    "coords": {
+        "lat": -23.6,
+        "long": -46.720278
+    },
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sp",
+        "city": "sao-paulo"
+    }
+}
