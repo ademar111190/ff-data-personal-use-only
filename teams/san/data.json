@@ -1,0 +1,21 @@
+{
+    "name": {
+        "pt": "Santos Futebol Clube"
+    },
+    "nickname": {
+        "pt": "Santos"
+    },
+    "acronym": {
+        "pt": "SAN"
+    },
+    "coords": {
+        "lat": -23.951111,
+        "long": -46.338889
+    },
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sp",
+        "city": "santos"
+    }
+}
