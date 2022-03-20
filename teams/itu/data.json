@@ -1,18 +1,18 @@
 {
     "name": {
-        "pt": "São Paulo Futebol Clube"
+        "pt": "Ituano Futebol Clube"
     },
     "nickname": {
-        "pt": "São Paulo"
+        "pt": "Ituano"
     },
     "acronym": {
-        "pt": "SPA"
+        "pt": "ITU"
     },
-    "stadium": "morumbi",
+    "stadium": "novelli-jr",
     "world": {
         "continent": "conmebol",
         "country": "brazil",
         "region": "sp",
-        "city": "sao-paulo"
+        "city": "itu"
     }
 }

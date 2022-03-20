@@ -1,18 +1,18 @@
 {
     "name": {
-        "pt": "São Paulo Futebol Clube"
+        "pt": "Associação Atlética Ponte Preta"
     },
     "nickname": {
-        "pt": "São Paulo"
+        "pt": "Ponte Preta"
     },
     "acronym": {
-        "pt": "SPA"
+        "pt": "AAPP"
     },
-    "stadium": "morumbi",
+    "stadium": "moises-lucarelli",
     "world": {
         "continent": "conmebol",
         "country": "brazil",
         "region": "sp",
-        "city": "sao-paulo"
+        "city": "campinas"
     }
 }

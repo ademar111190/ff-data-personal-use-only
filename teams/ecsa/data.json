@@ -1,18 +1,18 @@
 {
     "name": {
-        "pt": "São Paulo Futebol Clube"
+        "pt": "Esporte Clube Santo André"
     },
     "nickname": {
-        "pt": "São Paulo"
+        "pt": "Santo André"
     },
     "acronym": {
-        "pt": "SPA"
+        "pt": "ECSA"
     },
-    "stadium": "morumbi",
+    "stadium": "brunao",
     "world": {
         "continent": "conmebol",
         "country": "brazil",
         "region": "sp",
-        "city": "sao-paulo"
+        "city": "santo-andre"
     }
 }

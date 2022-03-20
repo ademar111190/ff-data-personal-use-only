@@ -1,18 +1,18 @@
 {
     "name": {
-        "pt": "São Paulo Futebol Clube"
+        "pt": "São Bernardo Futebol Clube"
     },
     "nickname": {
-        "pt": "São Paulo"
+        "pt": "São Bernardo"
     },
     "acronym": {
-        "pt": "SPA"
+        "pt": "SBE"
     },
-    "stadium": "morumbi",
+    "stadium": "vila-euclides",
     "world": {
         "continent": "conmebol",
         "country": "brazil",
         "region": "sp",
-        "city": "sao-paulo"
+        "city": "sao-bernardo-do-campo"
     }
 }

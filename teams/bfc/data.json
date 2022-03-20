@@ -1,18 +1,18 @@
 {
     "name": {
-        "pt": "São Paulo Futebol Clube"
+        "pt": "Botafogo Futebol Clube"
     },
     "nickname": {
-        "pt": "São Paulo"
+        "pt": "Botafogo"
     },
     "acronym": {
-        "pt": "SPA"
+        "pt": "BFC"
     },
-    "stadium": "morumbi",
+    "stadium": "santa-cruz",
     "world": {
         "continent": "conmebol",
         "country": "brazil",
         "region": "sp",
-        "city": "sao-paulo"
+        "city": "ribeirao-preto"
     }
 }

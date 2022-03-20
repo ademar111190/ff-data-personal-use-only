@@ -1,14 +1,14 @@
 {
     "name": {
-        "pt": "São Paulo Futebol Clube"
+        "pt": "Sport Club Corinthians Paulista"
     },
     "nickname": {
-        "pt": "São Paulo"
+        "pt": "Corinthians"
     },
     "acronym": {
-        "pt": "SPA"
+        "pt": "COR"
     },
-    "stadium": "morumbi",
+    "stadium": "itaquerao",
     "world": {
         "continent": "conmebol",
         "country": "brazil",

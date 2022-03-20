@@ -1,18 +1,18 @@
 {
     "name": {
-        "pt": "São Paulo Futebol Clube"
+        "pt": "Associação Atlética Internacional de Limeira"
     },
     "nickname": {
-        "pt": "São Paulo"
+        "pt": "Inter de Limeira"
     },
     "acronym": {
-        "pt": "SPA"
+        "pt": "AAIL"
     },
-    "stadium": "morumbi",
+    "stadium": "limeirao",
     "world": {
         "continent": "conmebol",
         "country": "brazil",
         "region": "sp",
-        "city": "sao-paulo"
+        "city": "limeira"
     }
 }

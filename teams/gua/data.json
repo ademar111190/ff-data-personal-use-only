@@ -1,18 +1,18 @@
 {
     "name": {
-        "pt": "São Paulo Futebol Clube"
+        "pt": "Guarani Futebol Clube"
     },
     "nickname": {
-        "pt": "São Paulo"
+        "pt": "Guarani"
     },
     "acronym": {
-        "pt": "SPA"
+        "pt": "GUA"
     },
-    "stadium": "morumbi",
+    "stadium": "brinco-de-ouro-da-princesa",
     "world": {
         "continent": "conmebol",
         "country": "brazil",
         "region": "sp",
-        "city": "sao-paulo"
+        "city": "campinas"
     }
 }

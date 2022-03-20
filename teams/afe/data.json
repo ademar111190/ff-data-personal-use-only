@@ -1,18 +1,18 @@
 {
     "name": {
-        "pt": "São Paulo Futebol Clube"
+        "pt": "Associação Ferroviária de Esportes"
     },
     "nickname": {
-        "pt": "São Paulo"
+        "pt": "Ferroviária"
     },
     "acronym": {
-        "pt": "SPA"
+        "pt": "AFE"
     },
-    "stadium": "morumbi",
+    "stadium": "fonte-luminosa",
     "world": {
         "continent": "conmebol",
         "country": "brazil",
         "region": "sp",
-        "city": "sao-paulo"
+        "city": "araraquara"
     }
 }

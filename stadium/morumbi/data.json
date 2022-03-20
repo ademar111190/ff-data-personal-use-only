@@ -5,5 +5,9 @@
     "nickname": {
         "pt": "Morumbi"
     },
+    "coords": {
+        "lat": -23.6,
+        "lon": -46.720278
+    },
     "capacity": 72039
 }

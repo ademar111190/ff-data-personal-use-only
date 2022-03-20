@@ -1,18 +1,18 @@
 {
     "name": {
-        "pt": "São Paulo Futebol Clube"
+        "pt": "Mirassol Futebol Clube"
     },
     "nickname": {
-        "pt": "São Paulo"
+        "pt": "Mirassol"
     },
     "acronym": {
-        "pt": "SPA"
+        "pt": "MFC"
     },
-    "stadium": "morumbi",
+    "stadium": "campos-maia",
     "world": {
         "continent": "conmebol",
         "country": "brazil",
         "region": "sp",
-        "city": "sao-paulo"
+        "city": "mirassol"
     }
 }

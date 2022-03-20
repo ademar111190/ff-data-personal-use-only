@@ -3,7 +3,18 @@
         "pt": "São Paulo"
     },
     "cities": [
+        "araraquara",
+        "braganca-paulista",
+        "campinas",
+        "diadema",
+        "itu",
+        "limeira",
+        "mirassol",
+        "novo-horizonte",
+        "ribeirao-preto",
+        "santo-andre",
         "santos",
+        "sao-bernardo-do-campo",
         "sao-paulo"
     ]
 }

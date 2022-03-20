@@ -1,14 +1,14 @@
 {
     "name": {
-        "pt": "São Paulo Futebol Clube"
+        "pt": "Sociedade Esportiva Palmeiras"
     },
     "nickname": {
-        "pt": "São Paulo"
+        "pt": "Palmeiras"
     },
     "acronym": {
-        "pt": "SPA"
+        "pt": "PAL"
     },
-    "stadium": "morumbi",
+    "stadium": "palestra-italia",
     "world": {
         "continent": "conmebol",
         "country": "brazil",

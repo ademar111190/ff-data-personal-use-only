@@ -1,0 +1,13 @@
+{
+    "name": {
+        "pt": "Estádio Santa Cruz"
+    },
+    "nickname": {
+        "pt": "Arena Eurobike"
+    },
+    "coords": {
+        "lat": -21.202503,
+        "lon": -47.78915
+    },
+    "capacity": 62000
+}

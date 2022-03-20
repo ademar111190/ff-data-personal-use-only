@@ -1,18 +1,18 @@
 {
     "name": {
-        "pt": "São Paulo Futebol Clube"
+        "pt": "Esporte Clube Água Santa"
     },
     "nickname": {
-        "pt": "São Paulo"
+        "pt": "Água Santa"
     },
     "acronym": {
-        "pt": "SPA"
+        "pt": "ECAS"
     },
-    "stadium": "morumbi",
+    "stadium": "inamar",
     "world": {
         "continent": "conmebol",
         "country": "brazil",
         "region": "sp",
-        "city": "sao-paulo"
+        "city": "diadema"
     }
 }

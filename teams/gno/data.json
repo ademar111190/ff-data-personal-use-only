@@ -1,18 +1,18 @@
 {
     "name": {
-        "pt": "São Paulo Futebol Clube"
+        "pt": "Grêmio Novorizontino"
     },
     "nickname": {
-        "pt": "São Paulo"
+        "pt": "Novorizontino"
     },
     "acronym": {
-        "pt": "SPA"
+        "pt": "GNO"
     },
-    "stadium": "morumbi",
+    "stadium": "jorjao",
     "world": {
         "continent": "conmebol",
         "country": "brazil",
         "region": "sp",
-        "city": "sao-paulo"
+        "city": "novo-horizonte"
     }
 }

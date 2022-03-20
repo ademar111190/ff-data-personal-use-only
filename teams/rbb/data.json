@@ -1,18 +1,18 @@
 {
     "name": {
-        "pt": "São Paulo Futebol Clube"
+        "pt": "Red Bull Bragantino"
     },
     "nickname": {
-        "pt": "São Paulo"
+        "pt": "Bragantino"
     },
     "acronym": {
-        "pt": "SPA"
+        "pt": "RBB"
     },
-    "stadium": "morumbi",
+    "stadium": "nabizao",
     "world": {
         "continent": "conmebol",
         "country": "brazil",
         "region": "sp",
-        "city": "sao-paulo"
+        "city": "braganca-paulista"
     }
 }

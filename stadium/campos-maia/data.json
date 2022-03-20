@@ -1,0 +1,13 @@
+{
+    "name": {
+        "pt": "Estádio Municipal José Maria de Campos Maia"
+    },
+    "nickname": {
+        "pt": "Campos Maia"
+    },
+    "coords": {
+        "lat": -20.822392,
+        "lon": -49.506422
+    },
+    "capacity": 15000
+}

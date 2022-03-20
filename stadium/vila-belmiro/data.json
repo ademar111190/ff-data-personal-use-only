@@ -5,5 +5,9 @@
     "nickname": {
         "pt": "Vila Belmiro"
     },
+    "coords": {
+        "lat": -23.951111,
+        "lon": -46.338889
+    },
     "capacity": 17923
 }
