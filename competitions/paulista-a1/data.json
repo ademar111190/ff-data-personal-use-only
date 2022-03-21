@@ -5,6 +5,8 @@
     "nickname": {
         "pt": "Paulistão"
     },
+    "mechanics": "regional-a",
+    "relegation": "paulista-a2",
     "teams": [
         "aail",
         "aapp",
