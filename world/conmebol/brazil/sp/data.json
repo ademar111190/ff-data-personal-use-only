@@ -4,17 +4,28 @@
     },
     "cities": [
         "araraquara",
+        "atibaia",
+        "barueri",
         "braganca-paulista",
         "campinas",
         "diadema",
+        "indaiatuba",
         "itu",
         "limeira",
+        "lins",
         "mirassol",
+        "monte-azul",
         "novo-horizonte",
+        "osasco",
+        "piracicaba",
         "ribeirao-preto",
+        "rio-claro",
         "santo-andre",
         "santos",
         "sao-bernardo-do-campo",
-        "sao-paulo"
+        "sao-caetano-do-sul",
+        "sao-paulo",
+        "sorocaba",
+        "taubate"
     ]
 }

@@ -1,0 +1,13 @@
+{
+    "name": {
+        "pt": "Estádio Municipal dos Amaros"
+    },
+    "nickname": {
+        "pt": "Estádio dos Amaros"
+    },
+    "coords": {
+        "lat": -21.5922609,
+        "lon": -48.8081522
+    },
+    "capacity": 10000
+}

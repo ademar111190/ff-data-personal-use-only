@@ -1,0 +1,13 @@
+{
+    "name": {
+        "pt": "Velódromo de São Paulo"
+    },
+    "nickname": {
+        "pt": "Velódromo"
+    },
+    "coords": {
+        "lat": -23.5493048,
+        "lon": -46.6480917
+    },
+    "capacity": 5000
+}

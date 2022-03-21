@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Esporte Clube XV de Novembro de Piracicaba"
+    },
+    "nickname": {
+        "pt": "XV de Novembro"
+    },
+    "acronym": {
+        "pt": "XV"
+    },
+    "stadium": "barao",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sp",
+        "city": "piracicaba"
+    }
+}

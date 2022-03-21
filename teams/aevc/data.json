@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Associação Esportiva Velo Clube Rioclarense"
+    },
+    "nickname": {
+        "pt": "Velo Clube"
+    },
+    "acronym": {
+        "pt": "VEL"
+    },
+    "stadium": "benitao",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sp",
+        "city": "rio-claro"
+    }
+}
