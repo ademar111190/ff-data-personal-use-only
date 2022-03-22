@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "São José Esporte Clube"
+    },
+    "nickname": {
+        "pt": "São José"
+    },
+    "acronym": {
+        "pt": "SJEC"
+    },
+    "stadium": "martins-pereira",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sp",
+        "city": "sao-jose-dos-campos"
+    }
+}

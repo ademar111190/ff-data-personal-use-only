@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Esporte Clube São Bernardo"
+    },
+    "nickname": {
+        "pt": "São Bernardo"
+    },
+    "acronym": {
+        "pt": "ECSB"
+    },
+    "stadium": "vila-euclides",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sp",
+        "city": "sao-bernardo-do-campo"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Capivariano Futebol Clube"
+    },
+    "nickname": {
+        "pt": "Capivariano"
+    },
+    "acronym": {
+        "pt": "CFC"
+    },
+    "stadium": "capivari",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sp",
+        "city": "capivari"
+    }
+}

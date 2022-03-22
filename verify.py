@@ -21,7 +21,7 @@ def verify_name(name):
 
 
 def verify_image(image, path):
-    for kind in ["svg", "png", "jpg", "jpeg"]:
+    for kind in ["svg", "png", "jpg", "jpeg", "gif"]:
         if os.path.isfile("{path}/{image}.{kind}".format(path=path, image=image, kind=kind)):
             return True
     return False

@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Olímpia Futebol Clube"
+    },
+    "nickname": {
+        "pt": "Olímpia"
+    },
+    "acronym": {
+        "pt": "OLI"
+    },
+    "stadium": "tereza-breda",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sp",
+        "city": "olimpia"
+    }
+}

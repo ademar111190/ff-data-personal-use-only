@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Marília Atlético Clube"
+    },
+    "nickname": {
+        "pt": "Marília"
+    },
+    "acronym": {
+        "pt": "MAC"
+    },
+    "stadium": "abreuzao",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sp",
+        "city": "marilia"
+    }
+}

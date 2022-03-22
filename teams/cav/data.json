@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Clube Atlético Votuporanguense"
+    },
+    "nickname": {
+        "pt": "Votuporanguense"
+    },
+    "acronym": {
+        "pt": "CAV"
+    },
+    "stadium": "plinio-marin",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sp",
+        "city": "votuporanga"
+    }
+}
