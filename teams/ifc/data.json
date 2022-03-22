@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Independente Futebol Clube"
+    },
+    "nickname": {
+        "pt": "Independente"
+    },
+    "acronym": {
+        "pt": "IND"
+    },
+    "stadium": "pradao",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sp",
+        "city": "limeira"
+    }
+}

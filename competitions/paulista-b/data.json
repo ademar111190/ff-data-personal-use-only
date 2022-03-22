@@ -10,6 +10,9 @@
     "teams": [
         "aac",
         "aaf",
+        "aai",
+        "aaib",
+        "aec",
         "afc",
         "bat",
         "caa",
@@ -18,6 +21,11 @@
         "ecus",
         "ffc",
         "fra",
-        "mogi"
+        "gdp",
+        "gds",
+        "gru",
+        "ifc",
+        "mogi",
+        "sei"
     ]
 }

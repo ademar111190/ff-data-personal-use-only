@@ -492,9 +492,24 @@ def check_competitions(teams):
     return result
 
 
+def check_teams_has_competitions(teams, competitions):
+    for team in teams:
+        found = False
+        for _, competition in competitions["competitions"].items():
+            if not "teams" in competition:
+                continue
+            if team in competition["teams"]:
+                found = True
+                break
+        if not found:
+            exit_with_error("  Error found on team:", team, "the team is not in the list of competitions")
+    return True
+
+
 stadiums = check_stadiums()
 locations = check_locations()
 teams = check_teams(stadiums, locations)
 competitions = check_competitions(teams)
+check_teams_has_competitions(teams, competitions)
 
 print("All done, everything looks good!")

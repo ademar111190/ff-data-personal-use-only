@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Associação Desportiva Guarulhos"
+    },
+    "nickname": {
+        "pt": "Guarulhos"
+    },
+    "acronym": {
+        "pt": "GRU"
+    },
+    "stadium": "tranquilao",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sp",
+        "city": "guarulhos"
+    }
+}
