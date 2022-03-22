@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Grêmio Desportivo Prudente"
+    },
+    "nickname": {
+        "pt": "Grêmio Prudente"
+    },
+    "acronym": {
+        "pt": "GDP"
+    },
+    "stadium": "prudentao",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sp",
+        "city": "presidente-prudente"
+    }
+}

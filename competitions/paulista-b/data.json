@@ -9,12 +9,15 @@
     "promotion": "paulista-a3",
     "teams": [
         "aac",
+        "aaf",
         "afc",
         "bat",
         "caa",
         "cat",
         "ccfc",
         "ecus",
+        "ffc",
+        "fra",
         "mogi"
     ]
 }

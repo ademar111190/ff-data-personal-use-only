@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Fernandópolis Futebol Clube"
+    },
+    "nickname": {
+        "pt": "Fernandópolis"
+    },
+    "acronym": {
+        "pt": "FFC"
+    },
+    "stadium": "arena-flash",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sp",
+        "city": "fernandopolis"
+    }
+}
