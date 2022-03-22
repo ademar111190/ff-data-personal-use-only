@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Amparo Athlético Club"
+    },
+    "nickname": {
+        "pt": "Amparo"
+    },
+    "acronym": {
+        "pt": "AAC"
+    },
+    "stadium": "jose-araujo-cintra",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sp",
+        "city": "amparo"
+    }
+}

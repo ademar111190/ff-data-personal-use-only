@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Esporte Clube União Suzano"
+    },
+    "nickname": {
+        "pt": "Ecus"
+    },
+    "acronym": {
+        "pt": "ECUS"
+    },
+    "stadium": "suzanao",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sp",
+        "city": "suzano"
+    }
+}

@@ -8,7 +8,7 @@ import re
 
 NAME_REGEX = re.compile(r"[^a-z\-]")
 SUPPORTED_LANGUAGES = ["en", "pt", "es"]
-SUPPORTED_MECHANICS = ["regional-a"]
+SUPPORTED_MECHANICS = ["regional-a", "regional-b"]
 
 
 def exit_with_error(*error):

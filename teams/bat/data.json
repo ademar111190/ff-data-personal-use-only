@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Batatais Futebol Clube"
+    },
+    "nickname": {
+        "pt": "Batatais"
+    },
+    "acronym": {
+        "pt": "BAT"
+    },
+    "stadium": "scatenao",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sp",
+        "city": "batatais"
+    }
+}

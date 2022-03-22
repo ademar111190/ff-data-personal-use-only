@@ -1,0 +1,20 @@
+{
+    "name": {
+        "pt": "Campeonato Paulista de Futebol Série A3"
+    },
+    "nickname": {
+        "pt": "Paulistão A3"
+    },
+    "mechanics": "regional-b",
+    "promotion": "paulista-a3",
+    "teams": [
+        "aac",
+        "afc",
+        "bat",
+        "caa",
+        "cat",
+        "ccfc",
+        "ecus",
+        "mogi"
+    ]
+}
