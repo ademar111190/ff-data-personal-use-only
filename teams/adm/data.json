@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Academia Desportiva Manthiqueira"
+    },
+    "nickname": {
+        "pt": "Manthiqueira"
+    },
+    "acronym": {
+        "pt": "ADM"
+    },
+    "stadium": "ninho-da-garca",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sp",
+        "city": "guaratingueta"
+    }
+}

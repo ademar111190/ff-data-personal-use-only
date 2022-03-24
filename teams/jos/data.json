@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Clube Atlético Joseense"
+    },
+    "nickname": {
+        "pt": "Joseense"
+    },
+    "acronym": {
+        "pt": "CAJ"
+    },
+    "stadium": "martins-pereira",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sp",
+        "city": "sao-jose-dos-campos"
+    }
+}

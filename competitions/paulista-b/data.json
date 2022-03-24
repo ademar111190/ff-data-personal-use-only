@@ -12,6 +12,7 @@
         "aaf",
         "aai",
         "aaib",
+        "adm",
         "aec",
         "afc",
         "bat",
@@ -23,9 +24,15 @@
         "fra",
         "gdp",
         "gds",
+        "gem",
         "gru",
         "ifc",
+        "jhc",
+        "jos",
+        "maua",
         "mogi",
+        "ocfc",
+        "pj",
         "sei"
     ]
 }

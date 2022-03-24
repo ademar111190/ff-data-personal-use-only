@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Mauá Futebol Clube"
+    },
+    "nickname": {
+        "pt": "Mauá"
+    },
+    "acronym": {
+        "pt": "MAUA"
+    },
+    "stadium": "pedro-benedetti",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sp",
+        "city": "maua"
+    }
+}
