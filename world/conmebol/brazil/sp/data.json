@@ -3,9 +3,11 @@
         "pt": "São Paulo"
     },
     "cities": [
+        "americana",
         "amparo",
         "andradina",
         "araraquara",
+        "araras",
         "assis",
         "atibaia",
         "barretos",
@@ -28,6 +30,7 @@
         "itapira",
         "itarare",
         "itu",
+        "jau",
         "jundiai",
         "limeira",
         "lins",
@@ -41,11 +44,14 @@
         "olimpia",
         "osasco",
         "osvaldo-cruz",
+        "penapolis",
         "piracicaba",
         "porto-feliz",
         "presidente-prudente",
         "ribeirao-preto",
         "rio-claro",
+        "santa-cruz-do-rio-pardo",
+        "santana-de-parnaiba",
         "santo-andre",
         "santos",
         "sao-bernardo-do-campo",
@@ -57,6 +63,7 @@
         "sertaozinho",
         "sorocaba",
         "suzano",
+        "taquaritinga",
         "taubate",
         "votuporanga"
     ]

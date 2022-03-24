@@ -1,18 +1,18 @@
 {
     "name": {
-        "pt": "Osvaldo Cruz Futebol Clube"
+        "pt": "São Carlos Futebol Clube"
     },
     "nickname": {
-        "pt": "Osvaldo Cruz"
+        "pt": "São Carlos"
     },
     "acronym": {
-        "pt": "OCFC"
+        "pt": "SCFC"
     },
-    "stadium": "tenentao",
+    "stadium": "luisao",
     "world": {
         "continent": "conmebol",
         "country": "brazil",
         "region": "sp",
-        "city": "penapolis"
+        "city": "sao-carlos"
     }
 }

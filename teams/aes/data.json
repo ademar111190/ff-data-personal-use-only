@@ -1,18 +1,18 @@
 {
     "name": {
-        "pt": "Osvaldo Cruz Futebol Clube"
+        "pt": "Associação Esportiva Santacruzense"
     },
     "nickname": {
-        "pt": "Osvaldo Cruz"
+        "pt": "Santacruzense"
     },
     "acronym": {
-        "pt": "OCFC"
+        "pt": "AES"
     },
-    "stadium": "tenentao",
+    "stadium": "camarinha",
     "world": {
         "continent": "conmebol",
         "country": "brazil",
         "region": "sp",
-        "city": "penapolis"
+        "city": "santa-cruz-do-rio-pardo"
     }
 }
