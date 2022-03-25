@@ -8,7 +8,20 @@ import re
 
 NAME_REGEX = re.compile(r"[^a-z\-]")
 SUPPORTED_LANGUAGES = ["en", "pt", "es"]
-SUPPORTED_MECHANICS = ["regional-a", "regional-b"]
+SUPPORTED_MECHANICS = {
+    "regional-a": {
+        "teams": 16,
+        "dates": 18
+    },
+    "regional-b": {
+        "teams": 36,
+        "dates": 18
+    },
+    "national-a": {
+        "teams": 20,
+        "dates": 38
+    }
+}
 
 
 def exit_with_error(*error):
@@ -506,10 +519,28 @@ def check_teams_has_competitions(teams, competitions):
     return True
 
 
+def check_mechanics(competitions):
+    print("Checking mechanics")
+    for competition in competitions["competitions"]:
+        if competition == "vacation":
+            continue
+        comp = competitions["competitions"][competition]
+        if len(comp) == 0:
+            print("Skipping for now empty competition", competition)
+            continue
+        dates = competitions["dates"][competition]
+        mechanics = SUPPORTED_MECHANICS[comp["mechanics"]]
+        if len(comp["teams"]) != mechanics["teams"]:
+            exit_with_error("  Error found on competition:", competition, "the number of teams is invalid")
+        if len(dates) != mechanics["dates"]:
+            exit_with_error("  Error found on competition:", competition, "the number of dates is invalid")
+
+
 stadiums = check_stadiums()
 locations = check_locations()
 teams = check_teams(stadiums, locations)
 competitions = check_competitions(teams)
 check_teams_has_competitions(teams, competitions)
+check_mechanics(competitions)
 
 print("All done, everything looks good!")

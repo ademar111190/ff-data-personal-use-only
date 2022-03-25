@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Sport Club Internacional"
+    },
+    "nickname": {
+        "pt": "Internacional"
+    },
+    "acronym": {
+        "pt": "INT"
+    },
+    "stadium": "beira-rio",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "rs",
+        "city": "porto-alegre"
+    }
+}

@@ -66,3 +66,21 @@
     - 1º of each group qualifies to the final and are promoted
 - Phase 2 - Knockout
     - Final at neutral stadium randomly select between the competition stadiums excluded the final participants stadiums
+
+## national-a
+- 38 dates
+- 20 teams
+- Double Round Robin
+- All play all twice
+    - 1 game as visitor
+    - 1 game as home
+- Tiebreaker
+    - Direct confrontation
+    - Number of victories
+    - Goal balance
+    - Goals made
+    - Less red cards
+    - Less yellow cards
+    - The lowest ranked
+- 1º, 2º, 3º and 4º are promoted
+- 17º, 18º, 19º and 20º are relegated

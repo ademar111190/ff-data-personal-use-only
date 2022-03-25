@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Cuiabá Esporte Clube"
+    },
+    "nickname": {
+        "pt": "Cuiabá"
+    },
+    "acronym": {
+        "pt": "CUI"
+    },
+    "stadium": "arena-pantanal",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "mt",
+        "city": "cuiaba"
+    }
+}

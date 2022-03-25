@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Clube de Regatas do Flamengo"
+    },
+    "nickname": {
+        "pt": "Flamengo"
+    },
+    "acronym": {
+        "pt": "FLA"
+    },
+    "stadium": "maracana",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "rj",
+        "city": "rio-de-janeiro"
+    }
+}

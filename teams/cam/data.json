@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Clube Atlético Mineiro"
+    },
+    "nickname": {
+        "pt": "Atlético Mineiro"
+    },
+    "acronym": {
+        "pt": "CAM"
+    },
+    "stadium": "mineirao",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "mg",
+        "city": "belo-horizonte"
+    }
+}
