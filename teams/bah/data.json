@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Esporte Clube Bahia"
+    },
+    "nickname": {
+        "pt": "Bahia"
+    },
+    "acronym": {
+        "pt": "BAH"
+    },
+    "stadium": "fonte-nova",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "ba",
+        "city": "salvador"
+    }
+}

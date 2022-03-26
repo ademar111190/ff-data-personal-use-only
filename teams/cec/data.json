@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Criciúma Esporte Clube"
+    },
+    "nickname": {
+        "pt": "Criciúma"
+    },
+    "acronym": {
+        "pt": "CEC"
+    },
+    "stadium": "majestoso",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sc",
+        "city": "criciuma"
+    }
+}

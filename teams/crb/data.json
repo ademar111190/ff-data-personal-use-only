@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Clube de Regatas Brasil"
+    },
+    "nickname": {
+        "pt": "CRB"
+    },
+    "acronym": {
+        "pt": "CRB"
+    },
+    "stadium": "rei-pele",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "al",
+        "city": "maceio"
+    }
+}

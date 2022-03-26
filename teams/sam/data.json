@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Sampaio Corrêa Futebol Clube"
+    },
+    "nickname": {
+        "pt": "Sampaio Corrêa"
+    },
+    "acronym": {
+        "pt": "SAM"
+    },
+    "stadium": "castelao-ma",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "ma",
+        "city": "sao-luis"
+    }
+}

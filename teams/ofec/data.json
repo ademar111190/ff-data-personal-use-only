@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Operário Ferroviário Esporte Clube"
+    },
+    "nickname": {
+        "pt": "Operário"
+    },
+    "acronym": {
+        "pt": "OFEC"
+    },
+    "stadium": "germano-kruger",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "pr",
+        "city": "ponta-grossa"
+    }
+}

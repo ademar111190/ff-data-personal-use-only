@@ -1,16 +1,5 @@
 {
     "name": {
         "pt": "Brasil"
-    },
-    "regions": [
-        "ce",
-        "go",
-        "mg",
-        "mt",
-        "pr",
-        "rj",
-        "rs",
-        "sc",
-        "sp"
-    ]
+    }
 }

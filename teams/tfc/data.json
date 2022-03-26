@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Tombense Futebol Clube"
+    },
+    "nickname": {
+        "pt": "Tombense"
+    },
+    "acronym": {
+        "pt": "TFC"
+    },
+    "stadium": "gigante-da-356",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "mg",
+        "city": "tombos"
+    }
+}

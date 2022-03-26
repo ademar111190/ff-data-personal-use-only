@@ -6,7 +6,7 @@ import os
 import re
 
 
-NAME_REGEX = re.compile(r"[^a-z\-]")
+NAME_REGEX = re.compile(r"^[a-z][^a-z0-9\-]")
 SUPPORTED_LANGUAGES = ["en", "pt", "es"]
 SUPPORTED_MECHANICS = {
     "regional-a": {
@@ -108,7 +108,7 @@ def check_locations_cities(confederation, country, region, cities):
         if not city in cities:
             exit_with_error("  Error found on city:", city, "the city is not in the list of cities")
         if not verify_image("flag", "{base_path}/{city}".format(base_path=base_path, city=city)):
-            exit_with_error("Error: the city flag image is missing")
+            exit_with_error("Error: the city", city, "flag image is missing")
 
         json_file = "{base_path}/{city}/data.json".format(base_path=base_path, city=city)
         if (os.path.isfile(json_file)):
@@ -175,7 +175,7 @@ def check_locations_regions(confederation, country, regions):
                         if len(localizedName) == 0:
                             exit_with_error("  Error found on region:", region, "the name is empty", localizedName)
 
-                    cities = data["cities"] if "cities" in data else exit_with_error("  Error found on region:", region, "the cities is missing")
+                    cities = os.listdir("{base_path}/{region}".format(base_path=base_path, region=region))
 
                     result[region] = {
                         "name": name,
@@ -216,7 +216,7 @@ def check_locations_countries(confederation, countries):
                         if len(localizedName) == 0:
                             exit_with_error("  Error found on country:", country, "the name is empty", localizedName)
 
-                    regions = data["regions"] if "regions" in data else exit_with_error("  Error found on country:", country, "the regions is missing")
+                    regions = os.listdir("{base_path}/{country}".format(base_path=base_path, country=country))
 
                     result[country] = {
                         "name": name,
@@ -265,7 +265,7 @@ def check_locations_confederations(confederations):
                         if len(localizedNickname) == 0:
                             exit_with_error("  Error found on confedetaion:", conf, "the nickname is empty", localizedNickname)
                     
-                    countries = data["countries"] if "countries" in data else exit_with_error("  Error found on confedetaion:", conf, "the countries is missing")
+                    countries = os.listdir("world/{conf}".format(conf=conf))
 
                     result[conf] = {
                         "name": name,
@@ -310,7 +310,7 @@ def check_locations():
                     if len(localizedNickname) == 0:
                         exit_with_error("  Error found on world the nickname is empty", localizedNickname)
                 
-                confederations = data["confederations"] if "confederations" in data else exit_with_error("  Error found on world the confederations is missing")
+                confederations = os.listdir("world")
 
                 locations["world"] = {
                     "name": name,

@@ -1,0 +1,31 @@
+{
+    "name": {
+        "pt": "Campeonato Brasileiro de Futebol Série B"
+    },
+    "nickname": {
+        "pt": "Brasileirão Série B"
+    },
+    "mechanics": "national-a",
+    "teams": [
+        "aapp",
+        "bah",
+        "bru",
+        "cec",
+        "cha",
+        "cnc",
+        "crb",
+        "cru",
+        "crvg",
+        "csa",
+        "fbpa",
+        "gno",
+        "gua",
+        "itu",
+        "lec",
+        "ofec",
+        "sam",
+        "spo",
+        "tfc",
+        "vn"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Club de Regatas Vasco da Gama"
+    },
+    "nickname": {
+        "pt": "Vasco"
+    },
+    "acronym": {
+        "pt": "VAS"
+    },
+    "stadium": "sao-januario",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "rj",
+        "city": "rio-de-janeiro"
+    }
+}
