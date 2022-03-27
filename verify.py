@@ -543,4 +543,14 @@ competitions = check_competitions(teams)
 check_teams_has_competitions(teams, competitions)
 check_mechanics(competitions)
 
-print("All done, everything looks good!")
+print("\nReport:")
+
+confs = locations["world"]["confederations"]
+print(len(confs), "continents")
+print(sum([len(confs[conf]["countries"]) for conf in confs]), "countries")
+print(sum([sum([len(confs[conf]["countries"][country]["regions"]) for country in confs[conf]["countries"]]) for conf in confs]), "regions")
+print(sum([sum([sum([len(confs[conf]["countries"][country]["regions"][region]["cities"]) for region in confs[conf]["countries"][country]["regions"]]) for country in confs[conf]["countries"]]) for conf in confs]), "cities")
+print(len(teams), "teams")
+print(len(competitions["competitions"]) -1, "competitions") # -1 because of vacation
+
+print("\nAll done, everything looks good!")
