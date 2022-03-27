@@ -6,6 +6,8 @@
         "pt": "Brasileirão Série B"
     },
     "mechanics": "national-a",
+    "promotion": "brasileirao-a",
+    "relegation": "brasileirao-c",
     "teams": [
         "aapp",
         "bah",

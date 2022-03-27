@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Esporte Clube São José"
+    },
+    "nickname": {
+        "pt": "São José"
+    },
+    "acronym": {
+        "pt": "ECSJ"
+    },
+    "stadium": "passo-dareia",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "rs",
+        "city": "porto-alegre"
+    }
+}

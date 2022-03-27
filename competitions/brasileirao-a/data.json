@@ -6,6 +6,7 @@
         "pt": "Brasileirão"
     },
     "mechanics": "national-a",
+    "relegation": "brasileirao-b",
     "teams": [
         "acg",
         "ame",

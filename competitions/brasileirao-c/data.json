@@ -1,0 +1,32 @@
+{
+    "name": {
+        "pt": "Campeonato Brasileiro de Futebol Série C"
+    },
+    "nickname": {
+        "pt": "Brasileirão Série C"
+    },
+    "mechanics": "national-a",
+    "promotion": "brasileirao-b",
+    "teams": [
+        "aaa",
+        "abc",
+        "adc",
+        "alt",
+        "bfc",
+        "bpb",
+        "cc",
+        "cr",
+        "ecsj",
+        "ecv",
+        "fac",
+        "fcac",
+        "fig",
+        "flo",
+        "geb",
+        "man",
+        "mfc",
+        "psc",
+        "vrfc",
+        "yfc"
+    ]
+}

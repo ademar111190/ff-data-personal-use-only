@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Botafogo Futebol Clube"
+    },
+    "nickname": {
+        "pt": "Botafogo da Paraíba"
+    },
+    "acronym": {
+        "pt": "BPB"
+    },
+    "stadium": "almeidao",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "pb",
+        "city": "joao-pessoa"
+    }
+}

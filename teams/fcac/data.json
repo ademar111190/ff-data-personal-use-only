@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Futebol Clube Atlético Cearense"
+    },
+    "nickname": {
+        "pt": "Atlético Cearense"
+    },
+    "acronym": {
+        "pt": "FCAC"
+    },
+    "stadium": "toca-do-leao",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "ce",
+        "city": "fortaleza"
+    }
+}
