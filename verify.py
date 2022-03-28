@@ -20,7 +20,11 @@ SUPPORTED_MECHANICS = {
     "national-a": {
         "teams": 20,
         "dates": 38
-    }
+    },
+    "national-b": {
+        "teams": 36,
+        "dates": 38
+    },
 }
 
 
@@ -531,9 +535,9 @@ def check_mechanics(competitions):
         dates = competitions["dates"][competition]
         mechanics = SUPPORTED_MECHANICS[comp["mechanics"]]
         if len(comp["teams"]) != mechanics["teams"]:
-            exit_with_error("  Error found on competition:", competition, "the number of teams is invalid")
+            exit_with_error("  Error found on competition:", competition, "the number of teams is invalid, expected", mechanics["teams"], "got", len(comp["teams"]))
         if len(dates) != mechanics["dates"]:
-            exit_with_error("  Error found on competition:", competition, "the number of dates is invalid")
+            exit_with_error("  Error found on competition:", competition, "the number of dates is invalid, expected", mechanics["dates"], "got", len(dates))
 
 
 stadiums = check_stadiums()

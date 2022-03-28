@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "América Futebol Clube"
+    },
+    "nickname": {
+        "pt": "América de Natal"
+    },
+    "acronym": {
+        "pt": "AME"
+    },
+    "stadium": "arena-das-dunas",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "rn",
+        "city": "natal"
+    }
+}

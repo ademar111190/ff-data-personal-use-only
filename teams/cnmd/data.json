@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Clube Náutico Marcílio Dias"
+    },
+    "nickname": {
+        "pt": "Marcílio Dias"
+    },
+    "acronym": {
+        "pt": "CNMD"
+    },
+    "stadium": "gigantao-das-avenidas",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sc",
+        "city": "itajai"
+    }
+}

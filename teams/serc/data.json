@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Sociedade Esportiva e Recreativa Caxias do Sul"
+    },
+    "nickname": {
+        "pt": "Caxias"
+    },
+    "acronym": {
+        "pt": "CAX"
+    },
+    "stadium": "centenario",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "rs",
+        "city": "caxias-do-sul"
+    }
+}

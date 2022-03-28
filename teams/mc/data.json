@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Moto Club"
+    },
+    "nickname": {
+        "pt": "Moto Club"
+    },
+    "acronym": {
+        "pt": "MC"
+    },
+    "stadium": "castelao",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "ma",
+        "city": "sao-luis"
+    }
+}

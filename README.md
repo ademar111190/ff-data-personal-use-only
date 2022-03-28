@@ -38,6 +38,7 @@
         - 2º x Aº at 2º home single game
         - The winners qualifies to the final
     - Final at neutral stadium randomly select between the competition stadiums excluded the final participants stadiums
+- Final winner is the champion
 
 ## regional-b
 - 18 dates
@@ -66,6 +67,7 @@
     - 1º of each group qualifies to the final and are promoted
 - Phase 2 - Knockout
     - Final at neutral stadium randomly select between the competition stadiums excluded the final participants stadiums
+- Final winner is the champion
 
 ## national-a
 - 38 dates
@@ -84,3 +86,35 @@
     - The lowest ranked
 - 1º, 2º, 3º and 4º are promoted
 - 17º, 18º, 19º and 20º are relegated
+- 1º is the champion
+
+## national-b
+- 38 dates
+- 36 teams
+- 2 phases
+- Phase 1 - Double Round Robin
+    - Two groups of 18 teams grouped by closest geo location
+    - All play all twice
+        - 1 game as visitor
+        - 1 game as home
+    - Tiebreaker
+        - Direct confrontation
+        - Number of victories
+        - Goal balance
+        - Goals made
+        - Less red cards
+        - Less yellow cards
+        - First phase
+            - The lowest ranked
+        - Second phase
+            - Extra time
+            - Penalties
+    - 1º and 2º of each group are promoted
+    - 15º, 16º, 17º and 18º of each group are relegated
+- Phase 2 - Knockout
+    - Semin final
+        - 1ºA x 2ºB two games, second game at 1ºA home
+        - 1ºB x 2ºA two games, second game at 1ºB home
+        - The winners qualifies to the final
+    - Final between the two semi-final winners, second game at best team home
+- Final winner is the champion

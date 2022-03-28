@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Agremiação Sportiva Arapiraquense"
+    },
+    "nickname": {
+        "pt": "ASA"
+    },
+    "acronym": {
+        "pt": "ASA"
+    },
+    "stadium": "fumeirao",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "al",
+        "city": "arapiraca"
+    }
+}

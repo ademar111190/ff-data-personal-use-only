@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Santa Cruz Futebol Clube"
+    },
+    "nickname": {
+        "pt": "Santa Cruz"
+    },
+    "acronym": {
+        "pt": "SC"
+    },
+    "stadium": "arruda",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "pe",
+        "city": "recife"
+    }
+}
