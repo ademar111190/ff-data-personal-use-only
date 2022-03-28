@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Porto Velho Esporte Clube"
+    },
+    "nickname": {
+        "pt": "Porto Velho"
+    },
+    "acronym": {
+        "pt": "PV"
+    },
+    "stadium": "aluizao",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "ro",
+        "city": "porto-velho"
+    }
+}

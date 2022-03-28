@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Grêmio Esportivo Juventus"
+    },
+    "nickname": {
+        "pt": "Juventus de Jaraguá"
+    },
+    "acronym": {
+        "pt": "JJ"
+    },
+    "stadium": "joao-marcatto",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sc",
+        "city": "jaragua-do-sul"
+    }
+}

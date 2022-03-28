@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Ceilândia Esporte Clube"
+    },
+    "nickname": {
+        "pt": "Ceilândia"
+    },
+    "acronym": {
+        "pt": "CEI"
+    },
+    "stadium": "abadiao",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "df",
+        "city": "ceilandia"
+    }
+}

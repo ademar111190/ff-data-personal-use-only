@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "4 de Julho Esporte Clube"
+    },
+    "nickname": {
+        "pt": "4 de Julho"
+    },
+    "acronym": {
+        "pt": "QJ"
+    },
+    "stadium": "arena-ytacoatyara",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "pi",
+        "city": "piripiri"
+    }
+}

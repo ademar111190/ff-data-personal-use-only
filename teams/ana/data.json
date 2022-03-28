@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Anápolis Futebol Clube"
+    },
+    "nickname": {
+        "pt": "Anápolis"
+    },
+    "acronym": {
+        "pt": "ANA"
+    },
+    "stadium": "jonas-duarte",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "go",
+        "city": "anapolis"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "São Paulo Crystal Futebol Clube"
+    },
+    "nickname": {
+        "pt": "São Paulo Crystal"
+    },
+    "acronym": {
+        "pt": "SPC"
+    },
+    "stadium": "o-carneirao",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "pb",
+        "city": "cruz-do-espirito-santo"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Sociedade Ação Futebol"
+    },
+    "nickname": {
+        "pt": "Ação"
+    },
+    "acronym": {
+        "pt": "ACAO"
+    },
+    "stadium": "dutrinha",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "go",
+        "city": "santo-antonio-de-leverger"
+    }
+}

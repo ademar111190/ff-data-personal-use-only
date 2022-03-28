@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Sociedade Desportiva Juazeirense"
+    },
+    "nickname": {
+        "pt": "Juazeirense"
+    },
+    "acronym": {
+        "pt": "SDJ"
+    },
+    "stadium": "adautao",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "ba",
+        "city": "juazeiro"
+    }
+}

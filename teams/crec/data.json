@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Costa Rica Esporte Clube"
+    },
+    "nickname": {
+        "pt": "Costa Rica"
+    },
+    "acronym": {
+        "pt": "CREC"
+    },
+    "stadium": "laertao",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "ms",
+        "city": "costa-rica"
+    }
+}

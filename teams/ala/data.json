@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Alagoinhas Atlético Clube"
+    },
+    "nickname": {
+        "pt": "Alagoinhas"
+    },
+    "acronym": {
+        "pt": "ALA"
+    },
+    "stadium": "carneirao",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "ba",
+        "city": "alagoinhas"
+    }
+}

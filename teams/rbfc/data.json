@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Rio Branco Football Club"
+    },
+    "nickname": {
+        "pt": "Rio Branco"
+    },
+    "acronym": {
+        "pt": "RBFC"
+    },
+    "stadium": "arena-da-floresta",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "ac",
+        "city": "rio-branco"
+    }
+}

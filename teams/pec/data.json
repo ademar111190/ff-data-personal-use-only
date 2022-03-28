@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Pacajus Esporte Clube"
+    },
+    "nickname": {
+        "pt": "Pacajus"
+    },
+    "acronym": {
+        "pt": "PAC"
+    },
+    "stadium": "joao-ronaldo",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "ce",
+        "city": "pacajus"
+    }
+}

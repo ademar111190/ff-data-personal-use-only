@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Trem Desportivo Clube"
+    },
+    "nickname": {
+        "pt": "Trem"
+    },
+    "acronym": {
+        "pt": "TREM"
+    },
+    "stadium": "zerao",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "ap",
+        "city": "macapa"
+    }
+}

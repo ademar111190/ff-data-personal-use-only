@@ -25,6 +25,14 @@ SUPPORTED_MECHANICS = {
         "teams": 36,
         "dates": 38
     },
+    "national-c": { 
+        "teams": 72,
+        "dates": 38
+    },
+    "national-d": {
+        "teams": 44,
+        "dates": 38
+    },  
 }
 
 
@@ -38,7 +46,7 @@ def verify_name(name):
 
 
 def verify_image(image, path):
-    for kind in ["svg", "png", "jpg", "jpeg", "gif"]:
+    for kind in ["svg", "png", "jpg", "jpeg", "gif", "webp"]:
         if os.path.isfile("{path}/{image}.{kind}".format(path=path, image=image, kind=kind)):
             return True
     return False
@@ -335,6 +343,10 @@ def check_teams(stadiums, locations):
     for team in os.listdir("teams"):
         if not verify_name(team):
             exit_with_error("  Error found on team:", team, "the name is invalid")
+        if len(team) < 2:
+            exit_with_error("  Error found on team:", team, "the name is too short")
+        if len(team) > 4:
+            exit_with_error("  Error found on team:", team, "the name is too long")
         if not verify_image("shield", "teams/{team}".format(team=team)):
             exit_with_error("Error: the team", team, "shield image is missing")
         json_file = "teams/{team}/data.json".format(team=team)
@@ -540,11 +552,31 @@ def check_mechanics(competitions):
             exit_with_error("  Error found on competition:", competition, "the number of dates is invalid, expected", mechanics["dates"], "got", len(dates))
 
 
+def check_region_teams(teams, region, competitions):
+    regional_teams = {}
+    for team in teams:
+        if teams[team]["world"]["region"] == region:
+            regional_teams[team] = 0
+    for competition in competitions["competitions"]:
+        if competition == "vacation":
+            continue
+        comp = competitions["competitions"][competition]
+        if len(comp) == 0:
+            continue
+        for competition_team in comp["teams"]:
+            if competition_team in regional_teams:
+                regional_teams[competition_team] += 1
+    for team, count in regional_teams.items():
+        if count != 2:
+            print("team", team, "has", count, "competitions")
+
+
 stadiums = check_stadiums()
 locations = check_locations()
 teams = check_teams(stadiums, locations)
 competitions = check_competitions(teams)
 check_teams_has_competitions(teams, competitions)
+#check_region_teams(teams, "sp", competitions)
 check_mechanics(competitions)
 
 print("\nReport:")

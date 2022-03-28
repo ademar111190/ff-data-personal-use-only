@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Retrô Futebol Clube Brasil"
+    },
+    "nickname": {
+        "pt": "Retrô"
+    },
+    "acronym": {
+        "pt": "RET"
+    },
+    "stadium": "arena-pernambuco",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "pe",
+        "city": "camaragibe"
+    }
+}

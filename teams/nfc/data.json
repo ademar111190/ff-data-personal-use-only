@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Náutico Futebol Clube"
+    },
+    "nickname": {
+        "pt": "Náutico"
+    },
+    "acronym": {
+        "pt": "NFC"
+    },
+    "stadium": "canarinho",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "rr",
+        "city": "boa-vista"
+    }
+}

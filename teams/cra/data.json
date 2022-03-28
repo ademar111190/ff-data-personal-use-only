@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Crato Esporte Clube"
+    },
+    "nickname": {
+        "pt": "Crato"
+    },
+    "acronym": {
+        "pt": "CRA"
+    },
+    "stadium": "mirandao",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "ce",
+        "city": "crato"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Azuriz Futebol Clube"
+    },
+    "nickname": {
+        "pt": "Azuriz"
+    },
+    "acronym": {
+        "pt": "AZU"
+    },
+    "stadium": "pioneiros",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "pr",
+        "city": "pato-branco"
+    }
+}

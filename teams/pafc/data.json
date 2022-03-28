@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Pouso Alegre Futebol Clube"
+    },
+    "nickname": {
+        "pt": "Pouso Alegre"
+    },
+    "acronym": {
+        "pt": "PAFC"
+    },
+    "stadium": "tereza-breda",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "mg",
+        "city": "pouso-alegre"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Associação Desportiva Recreativa Cultural Icasa"
+    },
+    "nickname": {
+        "pt": "Icasa"
+    },
+    "acronym": {
+        "pt": "ICA"
+    },
+    "stadium": "romeirao",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "ce",
+        "city": "juazeiro-do-norte"
+    }
+}

@@ -110,7 +110,7 @@
             - Extra time
             - Penalties
     - 1º and 2º of each group are promoted
-    - 15º, 16º, 17º and 18º of each group are relegated
+    - 15º, 16º, 17º and 18º of each group are relegated, 8 relegated teams in total
 - Phase 2 - Knockout
     - Semin final
         - 1ºA x 2ºB two games, second game at 1ºA home
@@ -118,3 +118,45 @@
         - The winners qualifies to the final
     - Final between the two semi-final winners, second game at best team home
 - Final winner is the champion
+
+## national-c
+- 38 dates
+- 72 teams
+- 2 phases
+- Phase 1 - Double Round Robin
+    - Four groups of 18 teams grouped by closest geo location
+    - All play all twice
+        - 1 game as visitor
+        - 1 game as home
+    - Tiebreaker
+        - Direct confrontation
+        - Number of victories
+        - Goal balance
+        - Goals made
+        - Less red cards
+        - Less yellow cards
+        - First phase
+            - The lowest ranked
+        - Second phase
+            - Extra time
+            - Penalties
+    - 1º and 2º of each group are promoted
+    - 15º, 16º, 17º and 18º of each group are relegated, 16 relegated teams in total
+- Phase 2 - Knockout
+    - Quarter final
+        - 1ºA x 2ºD at 1ºA home single game
+        - 1ºB x 2ºC at 1ºB home single game
+        - 1ºC x 2ºB at 1ºC home single game
+        - 1ºD x 2ºA at 1ºD home single game
+        - The winners qualifies to semi final as Aº, Bº, Cº and Dº where Aº has the best campaing, Bº has the second best campaing, Cº has the third best campaing and Dº has the fourth best campaing
+    - Semin final
+        - Aº x Dº at Aº home single game
+        - Bº x Cº at Bº home single game
+        - The winners qualifies to the final
+    - Final between the two semi-final winners, second game at best team home
+- Final winner is the champion
+
+## national-d
+- 38 dates
+- 44 teams
+- TBD

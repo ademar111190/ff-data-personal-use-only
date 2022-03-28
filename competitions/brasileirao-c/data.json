@@ -7,6 +7,7 @@
     },
     "mechanics": "national-b",
     "promotion": "brasileirao-b",
+    "relegation": "brasileirao-d",
     "teams": [
         "aaa",
         "aail",
