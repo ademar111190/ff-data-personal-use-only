@@ -552,10 +552,11 @@ def check_mechanics(competitions):
             exit_with_error("  Error found on competition:", competition, "the number of dates is invalid, expected", mechanics["dates"], "got", len(dates))
 
 
-def check_region_teams(teams, region, competitions):
+# SP teams has 2 competitions, regional and national
+def check_region_sp(teams, competitions):
     regional_teams = {}
     for team in teams:
-        if teams[team]["world"]["region"] == region:
+        if teams[team]["world"]["region"] == "sp":
             regional_teams[team] = 0
     for competition in competitions["competitions"]:
         if competition == "vacation":
@@ -576,8 +577,10 @@ locations = check_locations()
 teams = check_teams(stadiums, locations)
 competitions = check_competitions(teams)
 check_teams_has_competitions(teams, competitions)
-#check_region_teams(teams, "sp", competitions)
 check_mechanics(competitions)
+
+# regional checks
+check_region_sp(teams, competitions)
 
 print("\nReport:")
 

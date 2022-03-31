@@ -1,18 +1,18 @@
 {
     "name": {
-        "pt": "União Futebol Clube"
+        "pt": "União Recreativa dos Trabalhadores"
     },
     "nickname": {
-        "pt": "União Mogi"
+        "pt": "URT"
     },
     "acronym": {
-        "pt": "MOGI"
+        "pt": "URT"
     },
     "stadium": "zama-maciel",
     "world": {
         "continent": "conmebol",
         "country": "brazil",
-        "region": "sp",
-        "city": "mogi-das-cruzes"
+        "region": "mg",
+        "city": "patos-de-minas"
     }
 }
