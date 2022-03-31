@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Clube Atlético Cambé"
+    },
+    "nickname": {
+        "pt": "Cambé"
+    },
+    "acronym": {
+        "pt": "CAC"
+    },
+    "stadium": "estadio-da-curva",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "pr",
+        "city": "cambe"
+    }
+}

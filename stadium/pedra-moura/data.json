@@ -1,0 +1,13 @@
+{
+    "name": {
+        "pt": "Estádio Pedra Moura"
+    },
+    "nickname": {
+        "pt": "Pedra Moura"
+    },
+    "coord": {
+        "lat": -31.329831,
+        "lon": -54.11645
+    },
+    "capacity": 10000
+}

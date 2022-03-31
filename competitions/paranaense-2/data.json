@@ -1,0 +1,22 @@
+{
+    "name": {
+        "pt": "Campeonato Paranaense de Futebol - Segunda Divisão"
+    },
+    "nickname": {
+        "pt": "Paranaense Segunda Divisão"
+    },
+    "mechanics": "regional-f",
+    "promotion": "paranaense-1",
+    "teams": [
+        "apu",
+        "aru",
+        "cab",
+        "fifc",
+        "igu",
+        "lm",
+        "pfc",
+        "pstc",
+        "tol",
+        "vere"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Grêmio Recreativo Esportivo Campo Largo"
+    },
+    "nickname": {
+        "pt": "GRECAL"
+    },
+    "acronym": {
+        "pt": "CL"
+    },
+    "stadium": "antonio-cavalli",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "pr",
+        "city": "campo-largo"
+    }
+}

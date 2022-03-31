@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Sport Club Campo Mourão"
+    },
+    "nickname": {
+        "pt": "Campo Mourão"
+    },
+    "acronym": {
+        "pt": "SCCM"
+    },
+    "stadium": "roberto-brzezinski",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "pr",
+        "city": "campo-mourao"
+    }
+}

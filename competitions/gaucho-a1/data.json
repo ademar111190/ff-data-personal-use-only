@@ -1,0 +1,24 @@
+{
+    "name": {
+        "pt": "Campeonato Gaúcho de Futebol"
+    },
+    "nickname": {
+        "pt": "Gauchão"
+    },
+    "mechanics": "regional-d",
+    "relegation": "gaucho-a2",
+    "teams": [
+        "aim",
+        "ecj",
+        "ecnh",
+        "ecsj",
+        "fbpa",
+        "geb",
+        "gfc",
+        "int",
+        "serc",
+        "sl",
+        "uff",
+        "yfc"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": {
+        "pt": "Campeonato Gaúcho de Futebol - Série A2"
+    },
+    "nickname": {
+        "pt": "Gauchão Série A2"
+    },
+    "mechanics": "regional-e",
+    "promotion": "gaucho-a1",
+    "relegation": "gaucho-b",
+    "teams": [
+        "cebg",
+        "cel",
+        "eca",
+        "ecc",
+        "ecg",
+        "ecpf",
+        "ecsg",
+        "far",
+        "fcsc",
+        "gau",
+        "geg",
+        "ism",
+        "pel",
+        "scsp",
+        "tufc",
+        "vec"
+    ]
+}

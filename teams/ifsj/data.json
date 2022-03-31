@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Independente Futebol São-Joseense"
+    },
+    "nickname": {
+        "pt": "São-Joseense"
+    },
+    "acronym": {
+        "pt": "IFSJ"
+    },
+    "stadium": "pinhao",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "pr",
+        "city": "sao-jose-dos-pinhais"
+    }
+}

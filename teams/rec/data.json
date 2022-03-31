@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Rolândia Esporte Clube"
+    },
+    "nickname": {
+        "pt": "Rolândia"
+    },
+    "acronym": {
+        "pt": "REC"
+    },
+    "stadium": "erich-george",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "pr",
+        "city": "rolandia"
+    }
+}

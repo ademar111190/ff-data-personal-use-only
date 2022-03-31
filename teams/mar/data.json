@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Maringá Futebol Clube"
+    },
+    "nickname": {
+        "pt": "Maringá"
+    },
+    "acronym": {
+        "pt": "MFC"
+    },
+    "stadium": "willie-davids",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "pr",
+        "city": "maringa"
+    }
+}

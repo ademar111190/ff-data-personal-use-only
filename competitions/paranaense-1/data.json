@@ -1,0 +1,24 @@
+{
+    "name": {
+        "pt": "Campeonato Paranaense de Futebol"
+    },
+    "nickname": {
+        "pt": "Paranaense"
+    },
+    "mechanics": "regional-d",
+    "relegation": "paranaense-2",
+    "teams": [
+        "azu",
+        "cap",
+        "ceu",
+        "cia",
+        "cor",
+        "fcc",
+        "ifsj",
+        "lec",
+        "mar",
+        "ofec",
+        "pc",
+        "rb"
+    ]
+}

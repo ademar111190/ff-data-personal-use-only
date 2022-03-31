@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Foz do Iguaçu Futebol Clube"
+    },
+    "nickname": {
+        "pt": "Foz do Iguaçu"
+    },
+    "acronym": {
+        "pt": "FIFC"
+    },
+    "stadium": "abc",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "pr",
+        "city": "foz-do-iguacu"
+    }
+}

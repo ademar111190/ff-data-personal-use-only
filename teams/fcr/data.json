@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Football Club Riograndense"
+    },
+    "nickname": {
+        "pt": "Riograndense"
+    },
+    "acronym": {
+        "pt": "FCR"
+    },
+    "stadium": "torquato-pontes",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "rs",
+        "city": "rio-grande"
+    }
+}

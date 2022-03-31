@@ -1,0 +1,20 @@
+{
+    "name": {
+        "pt": "Copa dos Estados do Sul"
+    },
+    "nickname": {
+        "pt": "Copa Sul"
+    },
+    "mechanics": "regional-c",
+    "teams_source": [
+        "catarinense-a",
+        "catarinense-b",
+        "catarinense-c",
+        "gaucho-a1",
+        "gaucho-a2",
+        "gaucho-b",
+        "paranaense-1",
+        "paranaense-2",
+        "paranaense-3"
+    ]
+}

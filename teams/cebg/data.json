@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Clube Esportivo Bento Gonçalves"
+    },
+    "nickname": {
+        "pt": "Esportivo"
+    },
+    "acronym": {
+        "pt": "CEBG"
+    },
+    "stadium": "montanha-dos-vinhedos",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "rs",
+        "city": "bento-goncalves"
+    }
+}

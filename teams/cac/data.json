@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Concórdia Atlético Clube"
+    },
+    "nickname": {
+        "pt": "Concórdia"
+    },
+    "acronym": {
+        "pt": "CAC"
+    },
+    "stadium": "domingos-machado",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sc",
+        "city": "concordia"
+    }
+}

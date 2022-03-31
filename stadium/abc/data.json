@@ -1,0 +1,13 @@
+{
+    "name": {
+        "pt": "Estádio do ABC"
+    },
+    "nickname": {
+        "pt": "ABC"
+    },
+    "coord": {
+        "lat": -25.533431,
+        "lon": -54.568675
+    },
+    "capacity": 6969
+}

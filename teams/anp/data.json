@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Associação Nova Prata de Esportes Cultura e Lazer"
+    },
+    "nickname": {
+        "pt": "Nova Prata"
+    },
+    "acronym": {
+        "pt": "ANP"
+    },
+    "stadium": "mario-cini",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "rs",
+        "city": "nova-prata"
+    }
+}

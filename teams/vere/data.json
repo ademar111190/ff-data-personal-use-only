@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Futebol Clube Verê"
+    },
+    "nickname": {
+        "pt": "Verê"
+    },
+    "acronym": {
+        "pt": "VERE"
+    },
+    "stadium": "vila-do-mar",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "pr",
+        "city": "vere"
+    }
+}

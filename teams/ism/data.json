@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Esporte Clube Internacional"
+    },
+    "nickname": {
+        "pt": "Inter de Santa Maria"
+    },
+    "acronym": {
+        "pt": "ISM"
+    },
+    "stadium": "baixada-melancolica",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "rs",
+        "city": "santa-maria"
+    }
+}

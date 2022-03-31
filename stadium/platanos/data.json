@@ -1,0 +1,13 @@
+{
+    "name": {
+        "pt": "Estádio dos Plátanos"
+    },
+    "nickname": {
+        "pt": "Plátanos"
+    },
+    "coord": {
+        "lat": -29.7091948,
+        "lon": -52.4247009
+    },
+    "capacity": 3500
+}

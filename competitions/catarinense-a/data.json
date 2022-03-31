@@ -1,0 +1,24 @@
+{
+    "name": {
+        "pt": "Campeonato Catarinense de Futebol"
+    },
+    "nickname": {
+        "pt": "Catarinense"
+    },
+    "mechanics": "regional-d",
+    "relegation": "catarinense-b",
+    "teams": [
+        "ava",
+        "bafc",
+        "bru",
+        "cac",
+        "camb",
+        "cha",
+        "cnmd",
+        "fig",
+        "hlfc",
+        "jec",
+        "jj",
+        "pro"
+    ]
+}

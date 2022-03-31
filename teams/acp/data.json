@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Atlético Clube Paranavaí"
+    },
+    "nickname": {
+        "pt": "Paranavaí"
+    },
+    "acronym": {
+        "pt": "ACP"
+    },
+    "stadium": "waldemiro-wagner",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "pr",
+        "city": "paranavai"
+    }
+}

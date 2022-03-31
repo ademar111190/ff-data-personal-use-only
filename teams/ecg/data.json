@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Esporte Clube Guarani"
+    },
+    "nickname": {
+        "pt": "Guarani"
+    },
+    "acronym": {
+        "pt": "ECG"
+    },
+    "stadium": "edmundo-feix",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "rs",
+        "city": "venancio-aires"
+    }
+}

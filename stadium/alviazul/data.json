@@ -1,0 +1,13 @@
+{
+    "name": {
+        "pt": "Estádio Alviazul"
+    },
+    "nickname": {
+        "pt": "Alviazul"
+    },
+    "coord": {
+        "lat": -29.4839151,
+        "lon": -52.0020701
+    },
+    "capacity": 8000
+}

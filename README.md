@@ -38,6 +38,7 @@
         - 2º x Aº at 2º home single game
         - The winners qualifies to the final
     - Final at neutral stadium randomly select between the competition stadiums excluded the final participants stadiums
+- Final participants are promoted
 - Final winner is the champion
 
 ## regional-b
@@ -67,6 +68,115 @@
     - 1º of each group qualifies to the final and are promoted
 - Phase 2 - Knockout
     - Final at neutral stadium randomly select between the competition stadiums excluded the final participants stadiums
+- Final winner is the champion
+
+## regional-c
+- 7 dates
+- 110 teams
+- Tiebreaker
+    - Direct confrontation
+    - Number of victories
+    - Goal balance
+    - Goals made
+    - Less red cards
+    - Less yellow cards
+    - Extra time
+    - Penalties
+- Games are played selecting the best ranked team against the worst ranked, the second best ranked team against the second worst ranked team and so on, always at worst ranked stadium
+- Rounds
+    - Playoff (92 worst ranked teams plays for 46 positions on next stage)
+    - Round of 64 (18 best ranked teams plus the 46 play-off winners)
+    - Round of 32
+    - Round of 16
+    - Quarter-final (8 teams)
+    - Semi-final (4 teams)
+    - Final (2 teams)
+- No promotion or relegation
+- Final winner is the champion
+
+## regional-d
+- 11 dates
+- 12 teams
+- All play all once
+    - 6 upper ranked play 5 games home
+    - 6 lower ranked play 6 games home
+- Victory 3 points
+- Draw 1 point
+- Defeat no points
+- Tiebreaker
+    - Direct confrontation
+    - Number of victories
+    - Goal balance
+    - Goals made
+    - Less red cards
+    - Less yellow cards
+    - The lowest ranked
+- 1º is the champion
+- 1º and 2º are promoted
+- 11º and 12º are relegated
+
+## regional-e
+- 11 dates
+- 16 teams
+- 2 phases
+- Phase 1 - Single Round Robin
+    - 2 groups of 8 teams
+    - All play all once
+        - 4 upper ranked play 3 games home
+        - 4 lower ranked play 4 games home
+    - Victory 3 points
+    - Draw 1 point
+    - Defeat no points
+    - Tiebreaker
+        - Direct confrontation
+        - Number of victories
+        - Goal balance
+        - Goals made
+        - Less red cards
+        - Less yellow cards
+        - First phase
+            - The lowest ranked
+        - Second phase
+            - Penalties
+    - 1º and 2º of each group qualifies to the second phase
+    - 8º of each group are relegated
+- Phase 2 - Knockout
+    - Semi-final
+        - 1ºA x 2ºB, two games, second game at 1ºA home
+        - 1ºB x 2ºA, two games, second game at 1ºB home
+    - Final between semi-final winners, two games, second game at best campaing team home
+- Final participants are promoted
+- Final winner is the champion
+
+## regional-f
+- 11 dates
+- 10 teams
+- 2 phases
+- Phase 1 - Single Round Robin
+    - All play all once
+        - 5 upper ranked play 4 games home
+        - 5 lower ranked play 5 games home
+    - Victory 3 points
+    - Draw 1 point
+    - Defeat no points
+    - Tiebreaker
+        - Direct confrontation
+        - Number of victories
+        - Goal balance
+        - Goals made
+        - Less red cards
+        - Less yellow cards
+        - First phase
+            - The lowest ranked
+        - Second phase
+            - Extra time
+            - Penalties
+    - 1º qualifies to the final, 2º and 3º to the semi-final
+- Phase 2 - Knockout
+    - Semi-final between 2º and 3º at 2º home
+    - Final between 1º and semi-final winner at 1º home
+- Final participants are promoted
+- 9º and 10º are relegated
 - Final winner is the champion
 
 ## national-a
@@ -158,5 +268,5 @@
 
 ## national-d
 - 38 dates
-- 44 teams
+- 129 teams
 - TBD

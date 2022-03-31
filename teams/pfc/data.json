@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Prudentópolis Futebol Clube"
+    },
+    "nickname": {
+        "pt": "Prudentópolis"
+    },
+    "acronym": {
+        "pt": "PFC"
+    },
+    "stadium": "agibert",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "pr",
+        "city": "prudentopolis"
+    }
+}

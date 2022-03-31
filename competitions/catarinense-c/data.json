@@ -1,0 +1,22 @@
+{
+    "name": {
+        "pt": "Campeonato Catarinense de Futebol Série C"
+    },
+    "nickname": {
+        "pt": "Catarinense Série C"
+    },
+    "mechanics": "regional-f",
+    "promotion": "catarinense-b",
+    "teams": [
+        "aao",
+        "bi",
+        "ca",
+        "cai",
+        "cur",
+        "ecab",
+        "fcpu",
+        "nav",
+        "pbec",
+        "scj"
+    ]
+}

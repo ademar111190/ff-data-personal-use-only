@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Associação Atlética Batel"
+    },
+    "nickname": {
+        "pt": "Batel"
+    },
+    "acronym": {
+        "pt": "AAB"
+    },
+    "stadium": "waldomiro-gelinski",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "pr",
+        "city": "guarapuava"
+    }
+}

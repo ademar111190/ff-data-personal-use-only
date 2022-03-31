@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Esporte Clube Novo Hamburgo"
+    },
+    "nickname": {
+        "pt": "Novo Hamburgo"
+    },
+    "acronym": {
+        "pt": "NH"
+    },
+    "stadium": "camp-noia",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "rs",
+        "city": "novo-hamburgo"
+    }
+}

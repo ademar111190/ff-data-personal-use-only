@@ -1,0 +1,28 @@
+{
+    "name": {
+        "pt": "Campeonato Gaúcho de Futebol - Segunda Divisão"
+    },
+    "nickname": {
+        "pt": "Gauchão Segunda Divisão"
+    },
+    "mechanics": "regional-e",
+    "promotion": "gaucho-a2",
+    "teams": [
+        "aesb",
+        "anp",
+        "bage",
+        "ecd",
+        "eci",
+        "fcm",
+        "fcr",
+        "gaf",
+        "ges",
+        "gfbs",
+        "nh",
+        "rio",
+        "scrg",
+        "tres",
+        "uhfc",
+        "xii"
+    ]
+}

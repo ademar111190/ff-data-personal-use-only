@@ -1,0 +1,23 @@
+{
+    "name": {
+        "pt": "Campeonato Catarinense de Futebol Série B"
+    },
+    "nickname": {
+        "pt": "Catarinense Série B"
+    },
+    "mechanics": "regional-f",
+    "promotion": "catarinense-a",
+    "relegation": "catarinense-c",
+    "teams": [
+        "blu",
+        "caca",
+        "car",
+        "cata",
+        "cec",
+        "ecil",
+        "gpf",
+        "met",
+        "nec",
+        "tub"
+    ]
+}

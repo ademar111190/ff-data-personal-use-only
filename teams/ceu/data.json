@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Clube Esportivo União"
+    },
+    "nickname": {
+        "pt": "União"
+    },
+    "acronym": {
+        "pt": "CEU"
+    },
+    "stadium": "anilado",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "pr",
+        "city": "francisco-beltrao"
+    }
+}

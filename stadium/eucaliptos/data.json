@@ -1,0 +1,13 @@
+{
+    "name": {
+        "pt": "Estádio dos Eucaliptos"
+    },
+    "nickname": {
+        "pt": "Eucaliptos"
+    },
+    "coord": {
+        "lat": -29.7068293,
+        "lon": -52.4443599
+    },
+    "capacity": 3500
+}

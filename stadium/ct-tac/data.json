@@ -1,0 +1,13 @@
+{
+    "name": {
+        "pt": "Centro de Treinamento e Formação de Atletas do TAC"
+    },
+    "nickname": {
+        "pt": "CT TAC"
+    },
+    "coord": {
+        "lat": -27.446694,
+        "lon": -53.913583
+    },
+    "capacity": 1500
+}

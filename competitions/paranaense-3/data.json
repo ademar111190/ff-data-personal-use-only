@@ -1,0 +1,24 @@
+{
+    "name": {
+        "pt": "Campeonato Paranaense de Futebol - Terceira Divisão"
+    },
+    "nickname": {
+        "pt": "Paranaense Terceira Divisão"
+    },
+    "mechanics": "regional-d",
+    "promotion": "paranaense-2",
+    "teams": [
+        "aab",
+        "acp",
+        "apl",
+        "ara",
+        "arec",
+        "ccam",
+        "cl",
+        "isc",
+        "nacp",
+        "pat",
+        "rec",
+        "sccm"
+    ]
+}

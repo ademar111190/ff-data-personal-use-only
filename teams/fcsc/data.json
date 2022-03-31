@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Futebol Clube Santa Cruz"
+    },
+    "nickname": {
+        "pt": "Santa Cruz"
+    },
+    "acronym": {
+        "pt": "FCSC"
+    },
+    "stadium": "platanos",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "rs",
+        "city": "santa-cruz-do-sul"
+    }
+}

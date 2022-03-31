@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Grêmio Foot-Ball Santanense"
+    },
+    "nickname": {
+        "pt": "Grêmio Santanense"
+    },
+    "acronym": {
+        "pt": "GFBS"
+    },
+    "stadium": "honorio-nunes",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "rs",
+        "city": "santana-do-livramento"
+    }
+}

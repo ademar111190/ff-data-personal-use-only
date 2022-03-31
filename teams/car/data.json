@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Caravaggio Futebol Clube"
+    },
+    "nickname": {
+        "pt": "Caravaggio"
+    },
+    "acronym": {
+        "pt": "CAR"
+    },
+    "stadium": "estadio-da-montanha",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sc",
+        "city": "nova-veneza"
+    }
+}

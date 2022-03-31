@@ -4,36 +4,11 @@ import json
 import math
 import os
 import re
+from unittest import skip
 
 
 NAME_REGEX = re.compile(r"^[a-z][^a-z0-9\-]")
 SUPPORTED_LANGUAGES = ["en", "pt", "es"]
-SUPPORTED_MECHANICS = {
-    "regional-a": {
-        "teams": 16,
-        "dates": 18
-    },
-    "regional-b": {
-        "teams": 36,
-        "dates": 18
-    },
-    "national-a": {
-        "teams": 20,
-        "dates": 38
-    },
-    "national-b": {
-        "teams": 36,
-        "dates": 38
-    },
-    "national-c": { 
-        "teams": 72,
-        "dates": 38
-    },
-    "national-d": {
-        "teams": 44,
-        "dates": 38
-    },  
-}
 
 
 def exit_with_error(*error):
@@ -49,6 +24,109 @@ def verify_image(image, path):
     for kind in ["svg", "png", "jpg", "jpeg", "gif", "webp"]:
         if os.path.isfile("{path}/{image}.{kind}".format(path=path, image=image, kind=kind)):
             return True
+    return False
+
+
+class Coord:
+    def __init__(self, lat, lon):
+        self.lat = lat
+        self.lon = lon
+
+
+class City:
+    def __init__(self, name, coord):
+        self.name = name
+        self.coord = coord
+
+
+class Stadium:
+    def __init__(self, name, nickname, capacity, coord):
+        self.name = name
+        self.nickname = nickname
+        self.capacity = capacity
+        self.coord = coord
+
+
+class Region:
+    def __init__(self, name, cities):
+        self.name = name
+        self.cities = cities
+
+
+class Country:
+    def __init__(self, name, regions):
+        self.name = name
+        self.regions = regions
+
+
+class Confederations:
+    def __init__(self, name, nickname, countries):
+        self.name = name
+        self.nickname = nickname
+        self.countries = countries
+
+
+class World:
+    def __init__(self, name, nickname, confederations):
+        self.name = name
+        self.nickname = nickname
+        self.confederations = confederations
+
+
+class Location:
+    def __init__(self, continent, country, region, city):
+        self.continent = continent
+        self.country = country
+        self.region = region
+        self.city = city
+
+
+class Team:
+    def __init__(self, name, nickname, acronym, stadium, world):
+        self.name = name
+        self.nickname = nickname
+        self.acronym = acronym
+        self.stadium = stadium
+        self.world = world
+
+
+class Competition:
+    def __init__(self, name, nickname, mechanics, relegation, promotion, teams, teams_source):
+        self.name = name
+        self.nickname = nickname
+        self.mechanics = mechanics
+        self.relegation = relegation
+        self.promotion = promotion
+        self.teams = teams
+        self.teams_source = teams_source
+
+
+class Mechanics:
+    def __init__(self, teams, dates):
+        self.teams = teams
+        self.dates = dates
+
+
+SUPPORTED_MECHANICS = {
+    "regional-a": Mechanics(16, 18),
+    "regional-b": Mechanics(36, 18),
+    "regional-c": Mechanics(110, 7),
+    "regional-d": Mechanics(12, 11),
+    "regional-e": Mechanics(16, 11),
+    "regional-f": Mechanics(10, 11),
+    "national-a": Mechanics(20, 38),
+    "national-b": Mechanics(36, 38),
+    "national-c": Mechanics(72, 38),
+    "national-d": Mechanics(129, 38)
+}
+
+
+def skip_competition(competition):
+    if competition == "vacation":
+        return True
+    if competition in ["copa-do-brasil", "libertadores", "club-world-cup"]:
+        print("Skipping for now empty competition", competition)
+        return True
     return False
 
 
@@ -94,15 +172,7 @@ def check_stadiums():
                     if type(lon) is not float or math.isnan(lon) or lon < -90 or lon > 90 or lon == 0.0:
                         exit_with_error("  Error found on stadium:", stadium, "the lon is invalid")
 
-                    stadiums[stadium] = {
-                        "name": name,
-                        "nickname": nickname,
-                        "capacity": capacity,
-                        "coord": {
-                            "lat": lat,
-                            "lon": lon
-                        }
-                    }
+                    stadiums[stadium] = Stadium(name, nickname, capacity, Coord(lat, lon))
                 except Exception as e:
                     exit_with_error("  Error found on stadium:", stadium, "error parsing json data", e)
         else:
@@ -145,13 +215,7 @@ def check_locations_cities(confederation, country, region, cities):
                     if type(lon) is not float or math.isnan(lon) or lon < -90 or lon > 90 or lon == 0.0:
                         exit_with_error("  Error found on city:", city, "the lon is invalid")
 
-                    result[city] = {
-                        "name": name,
-                        "coord": {
-                            "lat": lat,
-                            "lon": lon
-                        }
-                    }
+                    result[city] = City(name, Coord(lat, lon))
                 except Exception as e:
                     exit_with_error("  Error found on city:", city, "error parsing json data", e)
         else:
@@ -189,10 +253,7 @@ def check_locations_regions(confederation, country, regions):
 
                     cities = os.listdir("{base_path}/{region}".format(base_path=base_path, region=region))
 
-                    result[region] = {
-                        "name": name,
-                        "cities": check_locations_cities(confederation, country, region, cities)
-                    }
+                    result[region] = Region(name, check_locations_cities(confederation, country, region, cities))
                 except Exception as e:
                     exit_with_error("  Error found on region:", region, "error parsing json data", e)
         else:
@@ -230,10 +291,7 @@ def check_locations_countries(confederation, countries):
 
                     regions = os.listdir("{base_path}/{country}".format(base_path=base_path, country=country))
 
-                    result[country] = {
-                        "name": name,
-                        "regions": check_locations_regions(confederation, country, regions)
-                    }
+                    result[country] = Country(name, check_locations_regions(confederation, country, regions))
                 except Exception as e:
                     exit_with_error("  Error found on country:", country, "error parsing json data", e)
         else:
@@ -279,11 +337,7 @@ def check_locations_confederations(confederations):
                     
                     countries = os.listdir("world/{conf}".format(conf=conf))
 
-                    result[conf] = {
-                        "name": name,
-                        "nickname": nickname,
-                        "countries": check_locations_countries(conf, countries)
-                    }
+                    result[conf] = Confederations(name, nickname, check_locations_countries(conf, countries))
                 except Exception as e:
                     exit_with_error("  Error found on confedetaion:", conf, "error parsing json data", e)
         else:
@@ -294,7 +348,6 @@ def check_locations_confederations(confederations):
 
 def check_locations():
     print("Checking locations")
-    locations = {}
     if not verify_image("logo", "world"):
         exit_with_error("Error: the world logo image is missing")
 
@@ -324,17 +377,11 @@ def check_locations():
                 
                 confederations = os.listdir("world")
 
-                locations["world"] = {
-                    "name": name,
-                    "nickname": nickname,
-                    "confederations": check_locations_confederations(confederations)
-                }
+                return World(name, nickname, check_locations_confederations(confederations))
             except Exception as e:
                 exit_with_error("  Error found on world: error parsing json data", e)
     else:
         exit_with_error("  Error found on world: the data.json file is missing")
-
-    return locations
 
 
 def check_teams(stadiums, locations):
@@ -396,27 +443,16 @@ def check_teams(stadiums, locations):
                     region = world["region"] if "region" in world else exit_with_error("  Error found on team:", team, "the region is missing")
                     city = world["city"] if "city" in world else exit_with_error("  Error found on team:", team, "the city is missing")
 
-                    if not continent in locations["world"]["confederations"]:
+                    if not continent in locations.confederations:
                         exit_with_error("  Error found on team:", team, "the continent", continent, "is missing on locations list")
-                    if not country in locations["world"]["confederations"][continent]["countries"]:
+                    if not country in locations.confederations[continent].countries:
                         exit_with_error("  Error found on team:", team, "the country", country, "is missing on locations list")
-                    if not region in locations["world"]["confederations"][continent]["countries"][country]["regions"]:
+                    if not region in locations.confederations[continent].countries[country].regions:
                         exit_with_error("  Error found on team:", team, "the region", region, "is missing on locations list")
-                    if not city in locations["world"]["confederations"][continent]["countries"][country]["regions"][region]["cities"]:
+                    if not city in locations.confederations[continent].countries[country].regions[region].cities:
                         exit_with_error("  Error found on team:", team, "the city", city, "is missing on locations list")
 
-                    teams[team] = {
-                        "name": name,
-                        "nickname": nickname,
-                        "acronym": acronym,
-                        "stadium": stadium,
-                        "world": {
-                            "continent": continent,
-                            "country": country,
-                            "region": region,
-                            "city": city
-                        }
-                    }
+                    teams[team] = Team(name, nickname, acronym, stadium, Location(continent, country, region, city))
                 except Exception as e:
                     exit_with_error("  Error found on team:", team, "error parsing json data", e)
         else:
@@ -500,19 +536,16 @@ def check_competitions(teams):
                         if not promotion in result["competitions"]:
                             exit_with_error("  Error found on competition:", competition, "the promotion", promotion, "is not in the list of competitions")
 
-                    competition_teams = data["teams"] if "teams" in data else exit_with_error("  Error found on competition:", competition, "the teams is missing")
-                    for team in competition_teams:
-                        if not team in teams:
-                            exit_with_error("  Error found on competition:", competition, "the team", team, "is not in the list of teams")
+                    teams_source = data["teams_source"] if "teams_source" in data else None
+                    if teams_source != None:
+                        competition_teams = []
+                    else:
+                        competition_teams = data["teams"] if "teams" in data else exit_with_error("  Error found on competition:", competition, "the teams is missing")
+                        for team in competition_teams:
+                            if not team in teams:
+                                exit_with_error("  Error found on competition:", competition, "the team", team, "is not in the list of teams")
 
-                    result["competitions"][competition] = {
-                        "name": name,
-                        "nickname": nickname,
-                        "mechanics": mechanics,
-                        "relegation": relegation,
-                        "promotion": promotion,
-                        "teams": competition_teams
-                    }
+                    result["competitions"][competition] = Competition(name, nickname, mechanics, relegation, promotion, competition_teams, teams_source)
                 except Exception as e:
                     exit_with_error("  Error found on competition:", competition, "error parsing json data", e)
         else:
@@ -524,10 +557,10 @@ def check_competitions(teams):
 def check_teams_has_competitions(teams, competitions):
     for team in teams:
         found = False
-        for _, competition in competitions["competitions"].items():
-            if not "teams" in competition:
+        for name, competition in competitions["competitions"].items():
+            if skip_competition(name):
                 continue
-            if team in competition["teams"]:
+            if team in competition_teams(competitions, competition):
                 found = True
                 break
         if not found:
@@ -538,38 +571,48 @@ def check_teams_has_competitions(teams, competitions):
 def check_mechanics(competitions):
     print("Checking mechanics")
     for competition in competitions["competitions"]:
-        if competition == "vacation":
+        if skip_competition(competition):
             continue
         comp = competitions["competitions"][competition]
-        if len(comp) == 0:
-            print("Skipping for now empty competition", competition)
-            continue
         dates = competitions["dates"][competition]
-        mechanics = SUPPORTED_MECHANICS[comp["mechanics"]]
-        if len(comp["teams"]) != mechanics["teams"]:
-            exit_with_error("  Error found on competition:", competition, "the number of teams is invalid, expected", mechanics["teams"], "got", len(comp["teams"]))
-        if len(dates) != mechanics["dates"]:
-            exit_with_error("  Error found on competition:", competition, "the number of dates is invalid, expected", mechanics["dates"], "got", len(dates))
+        mechanics = SUPPORTED_MECHANICS[comp.mechanics]
+        if len(competition_teams(competitions, comp)) != mechanics.teams:
+            exit_with_error("  Error found on competition:", competition, "the number of teams is invalid, expected", mechanics.teams, "got", len(competition_teams(competitions, comp)))
+        if len(dates) != mechanics.dates:
+            exit_with_error("  Error found on competition:", competition, "the number of dates is invalid, expected", mechanics.dates, "got", len(dates))
 
 
-# SP teams has 2 competitions, regional and national
-def check_region_sp(teams, competitions):
+def competition_teams(competitions, competition):
+    if type(competition) is not Competition:
+        comp = competitions["competitions"][competition]
+    else:
+        comp = competition
+    if comp.teams_source != None:
+        teams = []
+        for source in comp.teams_source:
+            teams.extend(competition_teams(competitions, source))
+        return teams
+    elif comp.teams != None:
+        return comp.teams
+    else:
+        return []
+
+
+def check_regions(teams, competitions, regions, number):
     regional_teams = {}
     for team in teams:
-        if teams[team]["world"]["region"] == "sp":
+        if teams[team].world.region in regions:
             regional_teams[team] = 0
     for competition in competitions["competitions"]:
-        if competition == "vacation":
+        if skip_competition(competition):
             continue
         comp = competitions["competitions"][competition]
-        if len(comp) == 0:
-            continue
-        for competition_team in comp["teams"]:
+        for competition_team in competition_teams(competitions, comp):
             if competition_team in regional_teams:
                 regional_teams[competition_team] += 1
     for team, count in regional_teams.items():
-        if count != 2:
-            print("team", team, "has", count, "competitions")
+        if count != number:
+            print("team", team, "has", count, "competitions, expected", number)
 
 
 stadiums = check_stadiums()
@@ -579,16 +622,17 @@ competitions = check_competitions(teams)
 check_teams_has_competitions(teams, competitions)
 check_mechanics(competitions)
 
-# regional checks
-check_region_sp(teams, competitions)
+print("Regional checks:")
+check_regions(teams, competitions, ["sp"], 2)
+check_regions(teams, competitions, ["pr", "rs", "sc"], 3)
 
 print("\nReport:")
 
-confs = locations["world"]["confederations"]
+confs = locations.confederations
 print(len(confs), "continents")
-print(sum([len(confs[conf]["countries"]) for conf in confs]), "countries")
-print(sum([sum([len(confs[conf]["countries"][country]["regions"]) for country in confs[conf]["countries"]]) for conf in confs]), "regions")
-print(sum([sum([sum([len(confs[conf]["countries"][country]["regions"][region]["cities"]) for region in confs[conf]["countries"][country]["regions"]]) for country in confs[conf]["countries"]]) for conf in confs]), "cities")
+print(sum([len(confs[conf].countries) for conf in confs]), "countries")
+print(sum([sum([len(confs[conf].countries[country].regions) for country in confs[conf].countries]) for conf in confs]), "regions")
+print(sum([sum([sum([len(confs[conf].countries[country].regions[region].cities) for region in confs[conf].countries[country].regions]) for country in confs[conf].countries]) for conf in confs]), "cities")
 print(len(teams), "teams")
 print(len(competitions["competitions"]) -1, "competitions") # -1 because of vacation
 

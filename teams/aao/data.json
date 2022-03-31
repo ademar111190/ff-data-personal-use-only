@@ -1,0 +1,18 @@
+{
+    "name": {
+        "pt": "Associação Atlética Orleans"
+    },
+    "nickname": {
+        "pt": "Orleans"
+    },
+    "acronym": {
+        "pt": "AAO"
+    },
+    "stadium": "osmundino-matheus",
+    "world": {
+        "continent": "conmebol",
+        "country": "brazil",
+        "region": "sc",
+        "city": "orleans"
+    }
+}
